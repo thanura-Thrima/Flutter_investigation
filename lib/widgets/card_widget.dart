@@ -12,7 +12,7 @@ class CardWidget extends StatelessWidget{
       mainAxisSize: MainAxisSize.min,
       children: <Widget>[
         ListTile(
-          leading: Icon(Icons.alarm),
+          leading: const Icon(Icons.alarm),
           title: Text(titleText),
           subtitle: Text(subTitle),
         ),
